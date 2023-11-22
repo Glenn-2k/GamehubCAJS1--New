@@ -30,9 +30,9 @@ nav,
   margin-top: 33px;
 }
 
-#menu-check:checked ~ nav {
+/* #menu-check:checked~nav {
   display: block;
-}
+} */
 
 nav a {
   display: block;
@@ -597,6 +597,7 @@ Mobile View  */
 /* Desktop View */
 
 @media (min-width: 769px) {
+
   .shipping-container,
   .subtotal-container,
   .total-container,
