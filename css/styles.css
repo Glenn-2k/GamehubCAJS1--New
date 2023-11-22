@@ -44,6 +44,11 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  color: rgb(110, 110, 110);
+  transition: all 0.3s ease-in-out;
+}
+
 nav ul {
   list-style-type: none;
   padding: 0;
