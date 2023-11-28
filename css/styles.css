@@ -378,7 +378,7 @@ footer {
   text-align: center;
 }
 
-.contact-send {
+.contact-send-button {
   background-color: #1d1d36;
   border: none;
   color: #ececf2;
@@ -388,6 +388,7 @@ footer {
   padding-bottom: 8px;
   margin-top: 4px;
   max-width: 300px;
+  cursor: pointer;
 }
 
 input,
