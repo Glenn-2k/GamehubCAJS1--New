@@ -406,6 +406,10 @@ textarea {
   .contact-heading {
     font-size: 2rem;
   }
+
+  .contact-content {
+    flex-wrap: wrap;
+  }
 }
 
 /* Content - Contact-sent 
