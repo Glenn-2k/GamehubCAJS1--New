@@ -34,10 +34,6 @@ nav,
   margin-top: 33px;
 }
 
-/* #menu-check:checked~nav {
-  display: block;
-} */
-
 nav a {
   display: block;
   color: #2b2b2b;
@@ -355,8 +351,8 @@ footer {
 .form-error {
   display: none;
   color: red;
-  font-size: 0.9rem;
-  margin-top: 2px;
+  font-size: 0.7rem;
+  margin-top: 1px;
 }
 
 .contact-wrapper {
