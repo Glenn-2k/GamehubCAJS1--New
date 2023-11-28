@@ -342,7 +342,7 @@ footer {
   margin-top: 0.8rem;
 }
 
-.form {
+.formContainer {
   display: flex;
   flex: 1;
   flex-direction: column;

@@ -13,7 +13,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="/JS/index.js" type="module"></script>
-    <script src="/JS/form.js"></script>
     <!-- Hotjar Tracking Code for Glenn Gamehub new -->
     <script>
       (function (h, o, t, j, a, r) {
@@ -77,13 +76,13 @@
             <section class="contact-wrapper">
               <h1 class="contact-heading">Get in touch with us</h1>
               <div class="contact-content">
-                <form class="form" action="/contact-sent.html">
+                <form class="formContainer" action="/contact-sent.html">
                   <div>
                     <label class="contact-label">
                       First name(required)
                       <input name="firstName" id="firstName" />
                     </label>
-                    <div class="form-error" id="firstnameError">
+                    <div class="form-error" id="firstNameError">
                       Please enter your first name
                     </div>
                   </div>
@@ -93,7 +92,7 @@
                       Last name(minimum 3 characters)
                       <input name="lastName" id="lastName" />
                     </label>
-                    <div class="form-error" id="lastnameError">
+                    <div class="form-error" id="lastNameError">
                       Your last name must be at least 3 letters
                     </div>
                   </div>
@@ -160,5 +159,6 @@
         </div>
       </div>
     </footer>
+    <script src="/JS/form.js"></script>
   </body>
 </html>
