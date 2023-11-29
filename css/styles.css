@@ -335,6 +335,9 @@ footer {
 .contact-content {
   display: flex;
   gap: 2rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow: hidden;
 }
 
 .contact-label {
@@ -358,7 +361,7 @@ footer {
 .contact-wrapper {
   max-width: 850px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 10px 10px 5rem 10px;
 }
 
 .contact-heading {
