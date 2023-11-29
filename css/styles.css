@@ -146,7 +146,7 @@ main {
 }
 
 .main-content {
-  background-color: #ececf2;
+  /* background-color: #ececf2; */
   width: 100vw;
   min-height: 50vh;
   margin-top: 80px;
@@ -161,7 +161,7 @@ main {
   }
 
   .main-content {
-    background-color: #ececf2;
+    /* background-color: #ececf2; */
     width: 60vw;
     min-height: 72vh;
     margin-left: 20%;
@@ -233,17 +233,19 @@ footer {
 
 .home-heading {
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-family: oswald, Arial, Helvetica, sans-serif;
   font-weight: 500;
   letter-spacing: 0.1rem;
   margin-top: 8%;
+  color: snow;
 }
 
 .home-info {
   font-size: 0.95rem;
   font-weight: 400;
   margin: 0 50px 50px 50px;
+  color: snow;
 }
 
 .home-cta {
@@ -259,7 +261,7 @@ footer {
 
 /* Content - Home */
 
-/* Mobile view */
+/* desktop view */
 
 @media (min-width: 769px) {
   .main-content-elements {
@@ -267,7 +269,7 @@ footer {
   }
 
   .home-heading {
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
 
   .home-info {
