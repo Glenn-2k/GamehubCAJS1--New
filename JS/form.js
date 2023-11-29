@@ -15,7 +15,7 @@ function validateForm() {
     firstNameError.style.display = "block";
   }
 
-  if (checkLength(lastName.value, 0) === true) {
+  if (checkLength(lastName.value, 2) === true) {
     lastNameError.style.display = "none";
   } else {
     lastNameError.style.display = "block";
