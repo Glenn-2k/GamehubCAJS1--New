@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --text-main-color: snow;
+}
+
 /* Mobile view  */
 
 body {
@@ -448,7 +452,7 @@ Mobile View  */
 
 .games-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   margin: 20px;
 }
 
@@ -493,6 +497,12 @@ Mobile View  */
   text-align: center;
   margin-bottom: 0;
   text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  .games-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Content - Games */
@@ -700,4 +710,15 @@ Mobile View  */
 
 .hidden {
   display: none;
+}
+
+.home-heading,
+.about-heading,
+.contact-heading,
+.games-heading,
+.specific-heading,
+.full-cart-heading,
+.games-title,
+.price {
+  color: var(--text-main-color);
 }
