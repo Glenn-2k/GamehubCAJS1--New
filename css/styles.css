@@ -721,6 +721,8 @@ Mobile View  */
 .superduper,
 .superduper-price,
 .empty-cart-text,
-.Contact-sent-success {
+.Contact-sent-success,
+.specific-text,
+.specific-price {
   color: var(--text-main-color);
 }
