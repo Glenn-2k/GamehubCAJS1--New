@@ -150,7 +150,7 @@ main {
   width: 100vw;
   min-height: 50vh;
   margin-top: 80px;
-  box-shadow: 0px 1px #00000075;
+  /* box-shadow: 0px 1px #00000075; */
 }
 
 @media (min-width: 769px) {
@@ -243,20 +243,26 @@ footer {
 
 .home-info {
   font-size: 0.95rem;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0 50px 50px 50px;
   color: snow;
+  text-align: center;
 }
 
 .home-cta {
   text-decoration: none;
-  background-color: #1d1d36;
-  color: #ececf2;
+  background-color: #ececf2;
+  color: #1d1d36;
   padding-left: 90px;
   padding-right: 90px;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 15px;
+  letter-spacing: 1px;
+}
+
+.home-cta:hover {
+  background-color: #bbbbc4;
 }
 
 /* Content - Home */
@@ -269,7 +275,7 @@ footer {
   }
 
   .home-heading {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .home-info {
@@ -284,7 +290,6 @@ footer {
     padding-left: 40px;
     padding-right: 40px;
     position: relative;
-    bottom: 20px;
   }
 }
 
