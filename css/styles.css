@@ -342,7 +342,7 @@ footer {
 
 .contact-label {
   display: block;
-  margin-top: 0.5rem;
+  /* margin-top: 0.5rem; */
 }
 
 .formContainer {
@@ -372,8 +372,8 @@ footer {
 .contact-text {
   flex: 1;
   padding: 2em;
-  background: white;
-  border-radius: 1rem;
+  /* background: white; */
+  /* border-radius: 1rem; */
   text-align: center;
 }
 
@@ -721,6 +721,7 @@ Mobile View  */
 .empty-cart-text,
 .Contact-sent-success,
 .specific-text,
-.specific-price {
+.specific-price,
+.contact-text {
   color: var(--text-main-color);
 }
