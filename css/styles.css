@@ -139,12 +139,14 @@ main {
 .background {
   background-image: url(/images/GLENNsvart40opacity.jpg);
   background-size: cover;
+  height: 100vh;
   height: 100dvh;
   overflow: hidden;
 }
 
 .BG {
   height: 100vh;
+  height: 100dvh;
   width: 100vw;
   overflow: scroll;
 }

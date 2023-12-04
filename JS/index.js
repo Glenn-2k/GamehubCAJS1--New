@@ -4,7 +4,7 @@ import { getGames } from "../JS/products/games.js";
 import { gamePage } from "./products/game.js";
 import { checked } from "./menu.js";
 
-if (location.pathname === "/games") {
+if (location.pathname === "/games.html") {
   gamesPage();
 }
 
