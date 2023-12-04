@@ -150,10 +150,10 @@ main {
 }
 
 @media (min-width: 769px) {
-  .BG {
+  /* .BG {
     height: 100vh;
     overflow-y: scroll;
-  }
+  } */
 
   .main-content {
     width: 60vw;
@@ -446,6 +446,9 @@ Mobile View  */
 }
 
 .game {
+  /* background: saddlebrown;
+  padding: 15px 15px 15px 15px;
+  border-radius: 10px; */
   display: flex;
   flex-direction: column;
   margin: 15px;
@@ -465,8 +468,9 @@ Mobile View  */
 }
 
 .games-title {
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   margin: 0 auto;
+  font-weight: 400;
 }
 
 .price {
