@@ -448,12 +448,10 @@ Mobile View  */
 }
 
 .game {
-  /* background: saddlebrown;
-  padding: 15px 15px 15px 15px;
-  border-radius: 10px; */
   display: flex;
   flex-direction: column;
   margin: 15px;
+  justify-content: space-between;
 }
 
 .games-heading {
@@ -473,11 +471,12 @@ Mobile View  */
   font-size: 0.8rem;
   margin: 0 auto;
   font-weight: 400;
+  text-align: center;
 }
 
 .price {
   font-size: 0.65rem;
-  font-weight: 200;
+  font-weight: 300;
   margin: 0 auto;
 }
 
