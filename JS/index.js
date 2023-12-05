@@ -3,6 +3,7 @@ import { gamesPage } from "../JS/products/games.js";
 import { getGames } from "../JS/products/games.js";
 import { gamePage } from "./products/game.js";
 import { checked } from "./menu.js";
+import * as formPage from "./form.js";
 
 const cleanedUrl = location.pathname.replace(/\/|\.html$/g, "");
 

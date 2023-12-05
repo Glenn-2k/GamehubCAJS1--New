@@ -5,6 +5,7 @@
 :root {
   --text-main-color: snow;
   --shopping-button-color: #f4a60d;
+  --background-main-color: #ececf2;
 }
 
 /* Mobile view  */
@@ -18,7 +19,7 @@ body {
 header {
   width: 100%;
   height: 70px;
-  background: #ececf2;
+  background: var(--background-main-color);
   box-shadow: 0px 1px #00000075;
 }
 
@@ -65,7 +66,7 @@ header {
 
 nav {
   position: absolute;
-  background: #ececf2;
+  background: var(--background-main-color);
   z-index: 100;
   box-shadow: 0px 2px #8d8d8d75;
 }
@@ -82,7 +83,7 @@ label {
   /* Header/NAV */
 
   header {
-    background-color: #ececf2;
+    background-color: var(--background-main-color);
     height: 140px;
     box-shadow: 0px 1px #00000075;
   }
@@ -173,7 +174,7 @@ main {
 
 footer {
   width: 100%;
-  background: #ececf2;
+  background: var(--background-main-color);
   height: 40px;
   position: fixed;
   bottom: 0;
@@ -246,7 +247,7 @@ footer {
 
 .home-cta {
   text-decoration: none;
-  background-color: #ececf2;
+  background-color: var(--background-main-color);
   color: #1d1d36;
   padding-left: 90px;
   padding-right: 90px;
@@ -382,7 +383,7 @@ footer {
 .contact-send-button {
   background-color: #1d1d36;
   border: none;
-  color: #ececf2;
+  color: var(--background-main-color);
   border-radius: 5px;
   min-height: 25px;
   padding-top: 8px;

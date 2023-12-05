@@ -6,7 +6,7 @@ const lastNameError = document.querySelector(`#lastNameError`);
 const email = document.querySelector(`#email`);
 const emailError = document.querySelector(`#emailError`);
 
-function validateForm() {
+export function validateForm() {
   if (checkLength(firstName.value, 0) === true) {
     firstNameError.style.display = "none";
   } else {
@@ -33,7 +33,7 @@ function validateForm() {
 
 formContainer.addEventListener("submit", validateForm);
 
-function checkLength(value, length) {
+export function checkLength(value, length) {
   if (value.trim().length > length) {
     return true;
   } else {
@@ -41,7 +41,7 @@ function checkLength(value, length) {
   }
 }
 
-function validateEmail(email) {
+export function validateEmail(email) {
   const regEx = /\S+@\S+\.\S+/;
   const emailMatch = regEx.test(email);
   return emailMatch;
