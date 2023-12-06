@@ -1,4 +1,3 @@
-const formContainer = document.querySelector(`.formContainer`);
 const firstName = document.querySelector(`#firstName`);
 const firstNameError = document.querySelector(`#firstNameError`);
 const lastName = document.querySelector(`#lastName`);
@@ -31,7 +30,7 @@ export function validateForm() {
   console.log("hello");
 }
 
-formContainer.addEventListener("submit", validateForm);
+// formContainer.addEventListener("submit", validateForm);
 
 export function checkLength(value, length) {
   if (value.trim().length > length) {

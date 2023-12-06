@@ -7,6 +7,8 @@ import * as formPage from "./form.js";
 
 const cleanedUrl = location.pathname.replace(/\/|\.html$/g, "");
 
+const formContainer = document.querySelector(`.formContainer`);
+
 switch (cleanedUrl) {
   case "games":
     try {
@@ -23,3 +25,5 @@ switch (cleanedUrl) {
       console.error("error rendering products");
     }
 }
+
+formContainer.addEventListener("submit", validateForm);
