@@ -375,14 +375,11 @@ footer {
 .contact-text {
   flex: 1;
   padding: 2em;
-  /* background: white; */
-  /* border-radius: 1rem; */
   text-align: center;
 }
 
 .contact-send-button {
   background-color: #1d1d36;
-  /* border: 1px solid white; */
   color: var(--background-main-color);
   background-color: #423e51;
   border-radius: 5px;
@@ -404,7 +401,6 @@ footer {
 
 input,
 textarea {
-  /* width: 100%; */
   width: 300px;
   margin-top: 2px;
   padding: 8px;
