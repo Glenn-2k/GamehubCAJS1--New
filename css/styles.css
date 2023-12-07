@@ -538,28 +538,34 @@ Mobile View  */
 
 .product-specific-content {
   margin: 15px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffffad;
+  border-radius: 5px;
 }
 
 .specific-heading {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   margin-bottom: 50px;
   padding-top: 10px;
+  letter-spacing: 0.3rem;
 }
 
 .grid-container-specific {
   display: flex;
   margin: 15px;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .product-specific-cover {
-  max-height: 150px;
+  max-height: 200px;
 }
 
 .specific-text {
   font-weight: 300;
-  font-size: 0.7rem;
+  font-size: 1rem;
   margin: 0;
 }
 
@@ -589,11 +595,11 @@ Mobile View  */
 
 @media (min-width: 769px) {
   .product-specific-cover {
-    max-height: 200px;
+    max-height: 250px;
   }
 
   .specific-text {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     margin-right: 200px;
   }
 
@@ -606,7 +612,7 @@ Mobile View  */
   }
 
   .specific-heading {
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
 }
 
@@ -699,12 +705,12 @@ Mobile View  */
 }
 
 .checkout-success {
-  font-size: 1.25rem;
+  font-size: 3.5rem;
   font-weight: 500;
 }
 
 .Checkout-success-text {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 300;
 }
 
@@ -718,7 +724,6 @@ Mobile View  */
 .about-heading,
 .contact-heading,
 .games-heading,
-.specific-heading,
 .full-cart-heading,
 .games-title,
 .price,
@@ -735,8 +740,7 @@ Mobile View  */
 .superduper-price,
 .empty-cart-text,
 .Contact-sent-success,
-.specific-text,
-.specific-price,
-.contact-text {
+.contact-text,
+.checkout-success {
   color: var(--text-main-color);
 }

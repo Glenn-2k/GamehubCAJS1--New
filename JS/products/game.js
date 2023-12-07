@@ -36,6 +36,7 @@ function displayGame(specificGame) {
           <p class="specific-text">${specificGame.description}</p>
           <p class="specific-price">$${specificGame.price}</p>
           <a href="/cart-full.html" id='add-to-cart-specific'>Add to cart</a>
+          <a href="/games.html" id='add-to-cart-specific'>Continue shopping</a>
       </div>
   </div>`;
   } catch (error) {
