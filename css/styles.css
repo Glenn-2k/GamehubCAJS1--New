@@ -655,10 +655,12 @@ Mobile View  */
 }
 
 .full-cart-text {
-  display: grid;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
   align-items: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 0 30px 0 30px;
 }
 
 .total {
@@ -675,11 +677,6 @@ Mobile View  */
   .total-container,
   .full-cart-game {
     margin: 15px 180px 5px 180px;
-  }
-
-  .full-cart-text {
-    margin-left: 300px;
-    margin-right: 300px;
   }
 }
 
