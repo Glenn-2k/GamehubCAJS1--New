@@ -18,7 +18,7 @@ switch (cleanedUrl) {
     }
     break;
 
-  case "product-specific.html":
+  case "product-specific":
     try {
       gamePage();
     } catch (error) {
