@@ -258,7 +258,9 @@ footer {
 }
 
 .home-cta:hover {
-  background-color: #bbbbc4;
+  background-color: #5f5f63;
+  color: var(--text-main-color);
+  transition: all 0.4s ease-in-out;
 }
 
 /* Content - Home */
